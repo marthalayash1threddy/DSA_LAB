@@ -8,7 +8,7 @@ void main()
   	scanf("%d",&n);
  	tower(n,'S','D','T');
     printf("Total moves: %d\n", moveCount);
-    return 0;
+    return ;
  }
  void tower(int n,char from,char to,char temp)
  {
@@ -22,3 +22,4 @@ void main()
     		 tower(n-1,temp,to,from);
    	}
  }
+
